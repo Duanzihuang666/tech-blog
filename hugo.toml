@@ -1,0 +1,38 @@
+baseURL = "https://duanzihuang666.github.io/tech-blog/"
+languageCode = "zh-cn"
+title = "Duanzihuang666 的技术博客"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[params]
+  author = "Duanzihuang666"
+  description = "个人技术博客 — 由 Hugo + GitHub Pages 驱动"
+  DateFormat = "2006-01-02"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+
+  [params.homeInfoParams]
+    Title = "欢迎来到我的技术博客"
+    Content = "记录技术学习、开发实践与思考。"
+
+  [params.assets]
+    disableHLJS = true
+
+[menu.main]
+  [[menu.main.identifier]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main.identifier]]
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main.identifier]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+[services]
+  [services.googleAnalytics]
+    ID = ""
